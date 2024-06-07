@@ -11,8 +11,8 @@ pool:
 
 variables:
   solution: '**/*.sln'
-  buildPlatform: 'x86|x64|ARM'
-  buildConfiguration: 'Release'
+  buildPlatform: 
+  buildConfiguration: 
   appxPackageDir: '$(build.artifactStagingDirectory)\AppxPackages\\'
 
 steps:
